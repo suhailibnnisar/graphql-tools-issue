@@ -1,0 +1,11 @@
+# import UserWhereInput from '../generated/generated.graphql'
+
+type User {
+  id: String!
+  name: String!
+  age: Int!
+}
+
+type Query {
+  users(where: UserWhereInput!): [User!]!
+}

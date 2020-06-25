@@ -1,0 +1,4 @@
+input UserWhereInput {
+  id: string
+  age: Int
+}
